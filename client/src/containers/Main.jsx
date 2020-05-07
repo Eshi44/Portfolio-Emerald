@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import About from './About';
+import Portfolio from './Portfolio';
 
 class Main extends Component {
     render () {
@@ -35,6 +37,8 @@ class Main extends Component {
      
              </div> 
              </section>
+            <About />
+            <Portfolio />
             
             </>
         );
