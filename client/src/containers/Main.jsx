@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import About from './About';
 import Portfolio from './Portfolio';
+import Contact from './Contact';
+
 
 class Main extends Component {
     render () {
@@ -24,10 +26,9 @@ class Main extends Component {
                             
                             <span id="intro"> </span> 
                             <p id="introtext">
-                                I'm baby asymmetrical brunch kinfolk narwhal leggings, bitters
-                                vaporware actually retro chartreuse organic disrupt brooklyn.
-                                8-bit street art twee sriracha prism crucifix pinterest raw denim
-                                selvage drinking vinegar.
+                            I am a Full Stack Web Developer located in the Atlanta Area. My passions are programming and learning! 
+                            I enjoy building elegant and functional applications.
+
                             </p>
                             <button type="button" id="button" className="btn btn-outline-success">
                                 View more <i className="fas fa-arrow-down"></i></button>
@@ -39,6 +40,7 @@ class Main extends Component {
              </section>
             <About />
             <Portfolio />
+            <Contact />
             
             </>
         );
