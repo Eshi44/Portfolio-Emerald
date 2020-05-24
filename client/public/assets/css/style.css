@@ -3,9 +3,9 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-body {
+/* body {
 	background-color: #1a1d21;
-}
+} */
 hr{
 	margin-top: 10%;
 	height: .1px;
@@ -84,6 +84,7 @@ nav {
 }
 #introtext {
 	font-size: 30px;
+	font-weight: bold;
 	font-family: "Roboto";
 }
 #gem {
@@ -103,9 +104,9 @@ nav {
 }
 
 /* About Me Container */
-#about-me-container {
+/* #about-me-container {
 	background-color: #1a1d21;
-}
+} */
 #center-header-section-text {
 	color: whitesmoke;
 	text-align: center;
@@ -131,9 +132,9 @@ nav {
 }
 
 /* Portfolio Container */
-#portfolio-container {
+/* #portfolio-container {
 	background-color: #1a1d21;
-}
+} */
 #second-row-portfolio{
 	margin-top: 2%;
 	margin-left: 5%;
@@ -145,9 +146,9 @@ nav {
 }
 
 /* Contact Container */
-#contact-container {
+/* #contact-container {
 	background-color: #1a1d21;
-}
+} */
 #contact-form{
 	margin-left: 18%;
 	margin-bottom: 5%;
