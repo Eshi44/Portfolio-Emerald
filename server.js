@@ -16,12 +16,17 @@ app.get("/api/config", (req, res) => {
 	});
 });
 
-app.use(express.static("client/build"));
+if (process.env.NODE_ENV === "production") {
+	app.use(express.static("client/build"));
+} else {
+	app.use(express.static("public"));
+}
 
 app.get("*", (req, res) => {
 	res.sendFile(path.join(__dirname, "/client/build/index.html"));
 });
-
+// PORT
 app.listen(PORT, () => {
-	console.log(`Express App is running on http://localhost:${PORT}`);
+	console.log(`App is running on http://localhost:${PORT}`);
 });
+
