@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import About from "../About/About";
 import Portfolio from "../Portfolio/Portfolio";
 import Contact from "../Contact/Contact";
+import NavBar from "../../components/NavBar/NavBar";
 import "./Main.css";
 import "./Stars.css";
 import $ from "jquery";
@@ -26,7 +27,7 @@ class Main extends Component {
 					<div id="stars"></div>
 					<div id="stars2"></div>
 					<div id="title">
-						<div className="row">
+						<div className="row" id="stop-overflow">
 							<div className="col-sm-1 col-md-1 col-lg-2"></div>
 							<div className="col-sm-10 col-md-10 col-lg-8">
 								<span id="intro">Hi! </span>
@@ -60,6 +61,7 @@ class Main extends Component {
 						</div>
 					</div>
 				</section>
+                <NavBar />
 				<About />
 				<Portfolio />
 				<Contact />
