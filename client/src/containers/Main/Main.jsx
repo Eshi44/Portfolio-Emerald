@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import About from './About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
+import About from '../About/About';
+import Portfolio from '../Portfolio/Portfolio';
+import Contact from '../Contact/Contact';
 
 
 class Main extends Component {

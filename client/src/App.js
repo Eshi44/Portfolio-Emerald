@@ -1,9 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-// import logo from './logo.svg';
-// import './App.css';
-// import axios from "axios";
-import Main from './containers/Main';
+import Main from './containers/Main/Main';
 
 function App() {
   return (
