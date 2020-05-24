@@ -1,0 +1,22 @@
+/* Portfolio Section */
+.img-fluid.port-image {
+	height: 450px;
+	width: 550px;
+}
+.ProjectPics {
+		width: 350px;
+		height: 300px;
+		padding-bottom: 2rem;
+		padding-left: 2rem;
+		padding-top: 2rem;	
+}
+
+#second-row-portfolio{
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#first-row-portfolio{
+	margin-left: 5%;
+	margin-right: 5%;
+}

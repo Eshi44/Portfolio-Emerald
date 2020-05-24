@@ -15,3 +15,50 @@ hr{
 	border-color: #20e395;
 	color: #20e395;
 }
+
+/* Intro Section*/
+#emerald {
+	vertical-align: middle;
+	margin-bottom: 1.5%;
+	border-radius: 50%;
+	-webkit-transition: -webkit-transform 0.7s ease-in-out;
+	transition: transform 0.7s ease-in-out;
+}
+#emerald:hover {
+	-webkit-transform: rotate(100deg);
+	transform: rotate(100deg);
+	filter: drop-shadow(3px 3px 3px rgb(20, 104, 45));
+}
+#frontpage {
+	height: 100%;
+	background: radial-gradient(ellipse at bottom, #233d37 0%, #090a0f 100%);
+	overflow: hidden;
+}
+#title {
+	position: absolute;
+	top: 25%;
+	font-size: 70px;
+	color: #fff;
+	text-align: left;
+	font-family: "Source Sans Pro", "sans-serif";
+}
+#introtext {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Roboto";
+}
+#gem {
+	height: 1em;
+	width: 1em;
+}
+#button:hover {
+	box-shadow: 0 12px 12px 0 rgba(35, 163, 88, 0.2), 0 5px 5px 0 rgb(20, 104, 45);
+	background-color: rgba(29, 177, 102, 0.5);
+	border-color: #ffffff;
+	color: #ffffff;
+}
+
+#button:hover .fa-arrow-down {
+	transition: 1.5s;
+	transform: rotateY(180deg);
+}
