@@ -11,7 +11,7 @@ hr {
 	background-color: rgb(163, 163, 163);
 	width: 80%;
 }
-#stop-overflow {
+#stop-overflow, #portfolio-container {
 	margin-right: 0;
 }
 /* Classes */
