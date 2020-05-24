@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import About from '../About/About';
 import Portfolio from '../Portfolio/Portfolio';
 import Contact from '../Contact/Contact';
+import "./Main.css";
 
 
 class Main extends Component {
