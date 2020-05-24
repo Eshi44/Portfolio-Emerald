@@ -25,30 +25,3 @@
   }
   
 
-
-/* media query */
-
-@media screen and (max-width: 770px) {
-	#about-image {
-		margin-left: 0%;
-	}
-}
-@media only screen and (max-width: 600px) {
-	span {
-		display: block;
-		word-wrap: break-word;
-	}
-	#title {
-		text-align: center;
-	}
-}
-
-@media only screen and (max-width: 415px) {
-	#title {
-		font-size: 40px;
-	} */
-
-	#introtext {
-		font-size: 16px;
-	}
-}

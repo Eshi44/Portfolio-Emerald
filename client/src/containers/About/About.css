@@ -1,20 +1,18 @@
 /* About Me Section */
 .fab.fa-github-square.fa-3x {
-    color: rgb(163, 163, 163);
-    padding-right: 1%;
+	color: rgb(0, 0, 0);
+	padding-right: 1%;
 }
 .fab.fa-linkedin.fa-3x {
-    color: rgb(163, 163, 163);
-    padding-right: 1%;
+	color: rgb(0, 0, 0);
+	padding-right: 1%;
 }
 .fas.fa-envelope.fa-3x {
-    color: rgb(163, 163, 163);
-    padding-right: 1%;
+	color: rgb(0, 0, 0);
+	padding-right: 1%;
 }
-
-
 #center-header-section-text {
-	color: whitesmoke;
+	color: rgb(0, 0, 0);
 	text-align: center;
 	margin-bottom: 3%;
 	margin-top: 5%;
@@ -23,16 +21,16 @@
 	height: 330px;
 	margin-left: 28%;
 }
-#aboutMe-text{
-	color: whitesmoke;
+#aboutMe-text {
+	color: rgb(0, 0, 0);
 	font-size: 22px;
 }
-#resume{
+#resume {
 	font-size: 25px;
-	color: rgb(163, 163, 163);
+	color: rgb(0, 0, 0);
 	padding-bottom: 5%;
 }
-#scrumMaster{
+#scrumMaster {
 	width: 10%;
 	padding-bottom: 5%;
 }

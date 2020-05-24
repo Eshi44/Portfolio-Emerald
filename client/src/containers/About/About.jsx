@@ -20,7 +20,7 @@ class About extends Component {
 								{" "}
 								Hi! I'm Emerald, a Full-Stack Developer based in the Atlanta
 								Area. I am proficient in a variety of programming languages,
-								which I use to create agile, intuitive user designs. I excel at
+								which I use to create intuitive user designs. I excel at
 								communication, analysis, and organization, and am always eager
 								to learn new skills.{" "}
 							</p>

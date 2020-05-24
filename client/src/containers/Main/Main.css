@@ -32,7 +32,7 @@ hr {
 }
 #frontpage {
 	height: 100%;
-	background: radial-gradient(ellipse at bottom, #233d37 0%, #090a0f 100%);
+	background: radial-gradient(ellipse at bottom, #0f4849 0%, #02101a 100%);
 	overflow: hidden;
 }
 #title {
@@ -62,4 +62,32 @@ hr {
 #button:hover .fa-arrow-down {
 	transition: 1.5s;
 	transform: rotateY(180deg);
+}
+
+
+/* media query */
+
+@media screen and (max-width: 770px) {
+	#about-image {
+		margin-left: 0%;
+	}
+}
+@media only screen and (max-width: 600px) {
+	span {
+		display: block;
+		word-wrap: break-word;
+	}
+	#title {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 515px) {
+	#title {
+		font-size: 50px;
+	} 
+
+	#introtext {
+		font-size: 16px;
+	}
 }
