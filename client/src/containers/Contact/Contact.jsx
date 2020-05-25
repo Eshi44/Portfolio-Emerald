@@ -5,52 +5,52 @@ class Contact extends Component {
 	render() {
 		return (
 			<>
-				<div class="container-fluid" id="contact-container">
+				<div className="container-fluid" id="contact-container">
 					<h1 id="center-header-section-text">Contact</h1>
 
-					<div class="row">
-						<div class="col-sm-12">
-							<form class="block form-horizontal" id="contact-form">
-								<div class="form-group">
-									<label for="name" class="col-sm-2 control-label">
+					<div className="row">
+						<div className="col-sm-12">
+							<form className="block form-horizontal" id="contact-form">
+								<div className="form-group">
+									<label for="name" className="col-sm-2 control-label">
 										Name
 									</label>
-									<div class="col-sm-10">
+									<div className="col-sm-10">
 										<input
 											type="email"
-											class="form-control"
+											className="form-control"
 											id="name"
 											placeholder="Name"
 										/>
 									</div>
 								</div>
-								<div class="form-group">
-									<label for="email" class="col-sm-2 control-label">
+								<div className="form-group">
+									<label for="email" className="col-sm-2 control-label">
 										Email
 									</label>
-									<div class="col-sm-10">
+									<div className="col-sm-10">
 										<input
 											type="password"
-											class="form-control"
+											className="form-control"
 											id="email"
 											placeholder="Email"
 										/>
 									</div>
 								</div>
-								<div class="form-group">
-									<label class="col-sm-2 control-label" for="msg">
+								<div className="form-group">
+									<label className="col-sm-2 control-label" for="msg">
 										Message
 									</label>
-									<div class="col-sm-10">
+									<div className="col-sm-10">
 										<textarea
 											id="msg"
-											class="form-control"
+											className="form-control"
 											rows="3"
 											placeholder="Message"
 										></textarea>
 									</div>
 								</div>
-								<button class="btn btn-dark">Submit</button>
+								<button className="btn btn-dark">Submit</button>
 							</form>
 						</div>
 					</div>

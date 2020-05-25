@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import "./About.css";
-
 class About extends Component {
 	render() {
 		return (
 			<>
 				<div className="container-fluid" id="about-me-container">
-					<h1 id="center-header-section-text">About</h1>
-					<div className="row">
+					<h1 id="center-header-section-text" className="animate__animated animate__bounceInLeft">About</h1>
+					<div className="row" id="aboutme-overflow">
 						<div className="col-xs-2 col-sm-5  col-md-3 col-lg-4 ">
 							<img
 								src="assets/img/Profile-Photo.jpg"
@@ -69,6 +68,9 @@ class About extends Component {
 							</a>
 						</div>
 						<div className="col-xs-3 col-sm-2 col-md-2 col-lg-3"></div>
+					</div>
+					<div className="row" id="skills-block">
+					<h1 id="skills-text">Skills</h1>
 					</div>
 				</div>
 				<hr></hr>

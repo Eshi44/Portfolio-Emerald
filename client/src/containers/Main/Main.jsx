@@ -14,6 +14,19 @@ class Main extends Component {
 			$("#frontpage").attr("style", "height:" + window.innerHeight + "px");
 			console.log(window.innerHeight);
 		};
+
+		this.scrollFunc();
+	}
+
+	scrollFunc() {
+		$("#button").click(function () {
+			$("html, body").animate(
+				{
+					scrollTop: $("#nav-bar").offset().top,
+				},
+				1000
+			);
+		});
 	}
 
 	render() {
@@ -49,6 +62,7 @@ class Main extends Component {
 									My passions are programming and learning! I enjoy building
 									elegant and functional applications.
 								</p>
+
 								<button
 									type="button"
 									id="button"
@@ -56,12 +70,13 @@ class Main extends Component {
 								>
 									View more <i className="fas fa-arrow-down"></i>
 								</button>
+
 								<div className="col-sm-1 col-md-1 col-lg-2"></div>
 							</div>
 						</div>
 					</div>
 				</section>
-                <NavBar />
+				<NavBar />
 				<About />
 				<Portfolio />
 				<Contact />

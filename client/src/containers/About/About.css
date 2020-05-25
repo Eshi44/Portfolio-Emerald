@@ -1,4 +1,3 @@
-/* About Me Section */
 .fab.fa-github-square.fa-3x {
 	color: rgb(0, 0, 0);
 	padding-right: 1%;
@@ -20,6 +19,8 @@
 #about-image {
 	height: 330px;
 	margin-left: 28%;
+	border: 4px solid #25e0b6;
+	border-radius: 10px;
 }
 #aboutMe-text {
 	color: rgb(0, 0, 0);
@@ -33,4 +34,10 @@
 #scrumMaster {
 	width: 10%;
 	padding-bottom: 5%;
+}
+#skills-block {
+	background-color: #f9f9f9;
+}
+#skills-text{
+	text-align: center;
 }

@@ -6,6 +6,7 @@ class Portfolio extends Component {
 	render() {
 		return (
 			<>
+			<div id="portfolio">
 				<div className="container-fluid" id="portfolio-container">
 					<h1 id="center-header-section-text">Portfolio</h1>
 
@@ -13,6 +14,7 @@ class Portfolio extends Component {
 					</div>
 				
 				<hr></hr>
+				</div>
 			</>
 		);
 	}

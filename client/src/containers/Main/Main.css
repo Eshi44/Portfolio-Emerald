@@ -2,7 +2,6 @@
 html,
 body {
 	max-width: 100%;
-	/* overflow-x: hidden; */
 
 }
 hr {
@@ -11,13 +10,13 @@ hr {
 	background-color: rgb(163, 163, 163);
 	width: 80%;
 }
-#stop-overflow, #portfolio-container {
+#stop-overflow, #portfolio-container,#aboutme-overflow, #skills-block {
 	margin-right: 0;
 }
 /* Classes */
 .btn.btn-outline-success {
-	border-color: #20e395;
-	color: #20e395;
+	border-color: #25e0b6;
+	color: #25e0b6;
 }
 
 /* Intro Section*/
