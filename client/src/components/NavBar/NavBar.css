@@ -1,3 +1,13 @@
+/* nav div unordered list */
+nav div ul {
+	list-style-type: none;
+}
+/* nav list */
+nav div ul li {
+	display: inline-block;
+	margin-left: 25px;
+}
+/* navbar */
 #nav-bar {
 	position: sticky;
 	z-index: 1;
@@ -8,36 +18,47 @@
 	background-color: #02101a;
 	box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2);
 }
+/* navbar div float */
 #float-div {
 	padding-top: 15px;
 	margin-right: 20px;
 	float: right;
 }
-a {
+/* about, portfolio, and contact button style */
+#portfolio,
+#about,
+#contact {
 	color: #ffffff;
 	text-decoration: none;
+	background-color: #02101a;
+	border-color: #02101a;
+	border-width: 0;
 }
-a:hover {
+/* portfolio,about, and contact hover effect */
+#portfolio:hover,
+#about:hover,
+#contact:hover {
 	color: #ffffff;
 	text-decoration: underline;
 }
-nav div ul {
-	list-style-type: none;
+/* portfolio,about, and contact focus effect */
+#portfolio:focus,
+#about:focus,
+#contact:focus {
+	outline: none;
 }
-nav div ul li {
-	display: inline-block;
-	margin-left: 25px;
-}
+/* resume btn */
 #btn-resume {
-    border-color: #25e0b6;
-    color: #25e0b6;
+	border-color: #25e0b6;
+	color: #25e0b6;
 }
+/* resume btn hover effect */
 #btn-resume:hover {
-    background-color:#02101a;
-    border-color: #ffffff;
+	background-color: #02101a;
+	border-color: #ffffff;
 	color: #ffffff;
-
 }
+/* logo */
 #emeraldLogo {
 	vertical-align: middle;
 	border-radius: 50%;
@@ -45,6 +66,7 @@ nav div ul li {
 	-webkit-transition: -webkit-transform 0.7s ease-in-out;
 	transition: transform 0.7s ease-in-out;
 }
+/* logo hover effect */
 #emeraldLogo:hover {
 	-webkit-transform: rotate(100deg);
 	transform: rotate(100deg);

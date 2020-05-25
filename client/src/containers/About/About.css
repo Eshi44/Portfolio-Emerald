@@ -37,7 +37,9 @@
 }
 #skills-block {
 	background-color: #f9f9f9;
+	margin-top: 5%;
+	padding-top: 3%;
 }
-#skills-text{
-	text-align: center;
+#about-me-container {
+	padding-top: 20px;
 }
