@@ -4,13 +4,12 @@ import $ from "jquery";
 
 class NavBar extends Component {
 	componentDidMount() {
-        //call scroll functions
-        this.scrollFuncPortfolio();
-        this.scrollFuncAbout();
-        this.scrollFuncContact();
+		//call scroll functions
+		this.scrollFuncPortfolio();
+		this.scrollFuncAbout();
+		this.scrollFuncContact();
 	}
-
-    // scroll function for portfolio btn
+	// scroll function for portfolio btn
 	scrollFuncPortfolio() {
 		$("#portfolio").click(function () {
 			$("html, body").animate(
@@ -20,10 +19,10 @@ class NavBar extends Component {
 				1000
 			);
 		});
-    }
-    // scroll function for about btn
+	}
+	// scroll function for about btn
 
-    scrollFuncAbout() {
+	scrollFuncAbout() {
 		$("#about").click(function () {
 			$("html, body").animate(
 				{
@@ -32,11 +31,10 @@ class NavBar extends Component {
 				1000
 			);
 		});
-    }
+	}
+	// scroll function for contact bt
 
-    // scroll function for contact bt
-
-    scrollFuncContact() {
+	scrollFuncContact() {
 		$("#contact").click(function () {
 			$("html, body").animate(
 				{
@@ -45,7 +43,7 @@ class NavBar extends Component {
 				1000
 			);
 		});
-    }
+	}
 
 	render() {
 		return (

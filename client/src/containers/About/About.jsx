@@ -1,11 +1,17 @@
 import React, { Component } from "react";
 import "./About.css";
+import SkillsCarousel from "../../components/Carousel/SkillsCarousel";
 class About extends Component {
 	render() {
 		return (
 			<>
 				<div className="container-fluid" id="about-me-container">
-					<h1 id="center-header-section-text" className="animate__animated animate__bounceInLeft">About</h1>
+					<h1
+						id="center-header-section-text"
+						className="animate__animated animate__bounceInLeft"
+					>
+						About
+					</h1>
 					<div className="row" id="aboutme-overflow">
 						<div className="col-xs-2 col-sm-5  col-md-3 col-lg-4 ">
 							<img
@@ -69,11 +75,18 @@ class About extends Component {
 						</div>
 						<div className="col-xs-3 col-sm-2 col-md-2 col-lg-3"></div>
 					</div>
-					<div className="container-fluid d-flex justify-content-center" id="skills-block">
-					<h1 id="skills-text">Skills</h1>
-					<div className="row">
-					
-					</div>
+					<div
+						className="container-fluid"
+						id="skills-block"
+					>
+						<div className="row">
+							<div className="col-12">
+						<h1 id="skills-text">Skills</h1>
+						</div>
+						</div>
+						<div className="row d-flex justify-content-center">
+							<SkillsCarousel />
+						</div>
 					</div>
 				</div>
 				<hr></hr>
