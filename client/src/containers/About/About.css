@@ -24,14 +24,14 @@ ul li {
 	display: inline;
 }
 /* unordered list img */
-ul li img {
+.row ul li img {
 	height: 35px;
 	margin-left: 30px;
 	-webkit-border-radius: 50px;
     border-radius: 50px;
 }
 /* unordered icon hover shadow */
-ul li img:hover {
+.row ul li img:hover {
 	-webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
 }
@@ -44,7 +44,7 @@ ul li img:hover {
 #skills-block {
 	background-color: #f9f9f9;
 	margin-top: 5%;
-	padding-top: 3%;
+	padding-top: 5%;
 	padding-bottom: 8%;
 }
 /* about me container padding for scroll */

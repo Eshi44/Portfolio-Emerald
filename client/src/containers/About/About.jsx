@@ -44,7 +44,6 @@ class About extends Component {
 					</div>
 
 					<div className="row" id="icons-imgs">
-						
 						<div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
 							<ul>
 								<li>
@@ -55,23 +54,31 @@ class About extends Component {
 								</li>
 								<li>
 									{" "}
-									<a href="https://www.linkedin.com/in/emerald-hamel-iervolino-a878a5a4/" target="_blank">
+									<a
+										href="https://www.linkedin.com/in/emerald-hamel-iervolino-a878a5a4/"
+										target="_blank"
+									>
 										<img src={Linkedin} alt="LinkedIn Profile" />
 									</a>{" "}
 								</li>
-								<li> <a href="mailto:e.hameliervolino@gmail.com?Subject=">
-										<img src={Email} alt="Email" />
-									</a></li>
-									<li>
+								<li>
 									{" "}
-									<a href="https://www.scrumalliance.org/community/profile/ehamelierv" target="_blank">
+									<a href="mailto:e.hameliervolino@gmail.com?Subject=">
+										<img src={Email} alt="Email" />
+									</a>
+								</li>
+								<li>
+									{" "}
+									<a
+										href="https://www.scrumalliance.org/community/profile/ehamelierv"
+										target="_blank"
+									>
 										<img src={CSM} alt="Scrum Alliance" />
 									</a>
 								</li>
 							</ul>
 						</div>
 					</div>
-					
 				</div>
 				<div className="container-fluid" id="skills-block">
 					<div className="row">
