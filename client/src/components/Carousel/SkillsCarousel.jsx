@@ -8,6 +8,10 @@ import jQuery from "../../images/jquery.png";
 import Heroku from "../../images/heroku.png";
 import Express from "../../images/expressjs.png";
 import Handlebars from "../../images/handlebars.png";
+import Bootstrap from "../../images/bootstrap.png";
+import Npm from "../../images/npm.png";
+import Travis from "../../images/travis-ci.png";
+import Webpack from "../../images/webpack.png";
 
 class SkillsCarousel extends Component {
 	render() {
@@ -57,7 +61,25 @@ class SkillsCarousel extends Component {
 								</div>
 							</div>
 						</div>
-                        
+                        <div className="carousel-item">
+							<div className="row">
+								<div className="col-3">
+                                <img id="webpack" className="d-block w-100" src={Webpack} alt="Webpack" />
+									
+								</div>
+								<div className="col-3">
+									<img id="travis-ci"className="d-block w-100" src={Travis} alt="Travis CI" />
+								</div>
+								<div className="col-3">
+									{" "}
+									<img id="npm"className="d-block w-100" src={Npm} alt="Npm" />
+								</div>
+								<div className="col-3">
+                                <img
+										id="bootstrap-icon"className="d-block w-100" src={Bootstrap} alt="Bootstrap"/>
+								</div>
+							</div>
+						</div>
 					</div>
 					<a
 						className="carousel-control-prev"
