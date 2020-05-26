@@ -10,16 +10,16 @@ hr {
 	background-color: rgb(163, 163, 163);
 	width: 80%;
 }
+/* stop overflow margin */
 #stop-overflow, #portfolio-container,#aboutme-overflow, #skills-block {
 	margin-right: 0;
 }
-
+/* view ore button */
 .btn.btn-outline-success {
 	border-color: #25e0b6;
 	color: #25e0b6;
 }
-
-
+/* emerald image */
 #emerald {
 	vertical-align: middle;
 	margin-bottom: 1.5%;
@@ -27,48 +27,52 @@ hr {
 	-webkit-transition: -webkit-transform 0.7s ease-in-out;
 	transition: transform 0.7s ease-in-out;
 }
+/* emerald image hover effect */
 #emerald:hover {
 	-webkit-transform: rotate(100deg);
 	transform: rotate(100deg);
 	filter: drop-shadow(3px 3px 3px rgb(20, 104, 45));
 }
+/* front page background color */
 #frontpage {
 	height: 100%;
 	background: radial-gradient(ellipse at bottom, #0f4849 0%, #02101a 100%);
 	overflow: hidden;
 }
+/* front page text */
 #title {
 	position: absolute;
 	top: 25%;
 	font-size: 70px;
 	color: #fff;
 	text-align: left;
-	
 }
+/* Hi! I'm Emerald text */
 #intro {
-	font-family: 'Roboto', sans-serif;
-	
+	font-family: 'Roboto', sans-serif;	
 }
+/* intro text under Hi! I'm Emerald */
 #introtext {
 	font-size: 28px;
 	font-family: 'Open Sans', sans-serif;
 }
+/* gem size */
 #gem {
 	height: 1em;
 	width: 1em;
 }
+/* view more button */
 #button:hover {
 	box-shadow: 0 12px 12px 0 rgba(35, 163, 88, 0.2), 0 5px 5px 0 rgb(20, 104, 45);
 	background-color: rgba(29, 177, 102, 0.5);
 	border-color: #ffffff;
 	color: #ffffff;
 }
-
+/* view more button hover effect and animation */
 #button:hover .fa-arrow-down {
 	transition: 1.5s;
 	transform: rotateY(180deg);
 }
-
 
 /* media query */
 @media screen and (max-width: 770px) {
@@ -85,7 +89,6 @@ hr {
 		text-align: center;
 	}
 }
-
 @media only screen and (max-width: 515px) {
 	#title {
 		font-size: 50px;
