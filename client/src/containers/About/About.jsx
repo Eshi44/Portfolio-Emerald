@@ -43,8 +43,8 @@ class About extends Component {
 					</div>
 
 					<div className="row" id="icons-imgs">
-						<div className="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
-						<div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 d-flex justify-content-center">
+						
+						<div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
 							<ul>
 								<li>
 									{" "}
@@ -70,7 +70,7 @@ class About extends Component {
 							</ul>
 						</div>
 					</div>
-					<div className="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+					
 				</div>
 				<div className="container-fluid" id="skills-block">
 					<div className="row">

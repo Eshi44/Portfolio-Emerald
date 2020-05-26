@@ -1,8 +1,9 @@
+/* about container top of text */
 #center-header-section-text {
 	color: rgb(0, 0, 0);
 	text-align: center;
 	margin-bottom: 3%;
-	margin-top: 5%;
+	margin-top: 8%;
 }
 /* profile picture */
 #about-image {
@@ -10,47 +11,47 @@
 	border: 3px solid #25e0b6;
 	border-radius: 10px;
 }
-/* ABout text */
+/* About text */
 #aboutMe-text {
 	color: rgb(0, 0, 0);
 	font-size: 22px;
 }
-#scrumMaster {
-	width: 10%;
-	padding-bottom: 5%;
-}
-ul li{
+/* unordered list display */
+ul li {
 	display: inline;
-  }
-  ul li img {
-	  height: 35px;
-	  margin-left: 30px;
-  }
-  #icons-imgs {
-	  margin-top: 80px;
-  }
+}
+/* unordered list img */
+ul li img {
+	height: 35px;
+	margin-left: 30px;
+}
+/* img icons margins */
+#icons-imgs {
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+/* skills background */
 #skills-block {
 	background-color: #f9f9f9;
 	margin-top: 5%;
 	padding-top: 3%;
 	padding-bottom: 8%;
 }
+/* about me container padding for scroll */
 #about-me-container {
 	padding-top: 20px;
 }
-#skills-text{
+/* skills text */
+#skills-text {
 	text-align: center;
 	margin-bottom: 3%;
 }
-
 /* media query */
-
 @media screen and (max-width: 1024px) {
 	#aboutMe-text {
 		margin-left: 5%;
 	}
 }
-
 @media screen and (min-width: 1300px) {
 	#about-image {
 		height: 330px;
