@@ -16,7 +16,10 @@ import Git from "../../images/git.png";
 import Jest from "../../images/jest.png";
 import Rest from "../../images/restful.png";
 import Html from "../../images/html.png";
-// import MySQL from "../../images/MySQL.png";
+import MySQL from "../../images/MySQL.png";
+import PWA from "../../images/pwa.png";
+import Saas from "../../images/sass.png";
+import CSS from "../../images/css.png";
 
 class SkillsCarousel extends Component {
 	render() {
@@ -26,7 +29,7 @@ class SkillsCarousel extends Component {
 					id="carouselExampleControls"
 					className="carousel slide "
 					data-ride="carousel"
-					data-interval="false"
+                    data-interval="2000"
 				>
 					<div className="carousel-inner">
 						<div className="carousel-item active">
@@ -101,6 +104,25 @@ class SkillsCarousel extends Component {
 								<div className="col-3">
                                 <img
 									 className="d-block w-100" src={Html} alt="Html"/>
+								</div>
+							</div>
+						</div>
+                        <div className="carousel-item">
+							<div className="row">
+								<div className="col-3">
+                                <img className="d-block w-100" src={MySQL} alt="MySQL" />
+									
+								</div>
+								<div className="col-3">
+									<img id="pwa-icon"className="d-block w-100" src={PWA} alt="PWA" />
+								</div>
+								<div className="col-3">
+									{" "}
+									<img className="d-block w-100" src={Saas} alt="Saas" />
+								</div>
+								<div className="col-3">
+                                <img
+									 className="d-block w-100" src={CSS} alt="CSS"/>
 								</div>
 							</div>
 						</div>

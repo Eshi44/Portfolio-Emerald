@@ -53,7 +53,12 @@
 	margin-top: 5%;
 	height: 30px;
 }
-/* mongodb */
+/* mongodb icon */
 #mongodb {
 	height: 75px;
+}
+/* pwa icon */
+#pwa-icon {
+	margin-top: 5%;
+	height: 42px;
 }
