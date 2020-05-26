@@ -3,6 +3,7 @@ import About from "../About/About";
 import Portfolio from "../Portfolio/Portfolio";
 import Contact from "../Contact/Contact";
 import NavBar from "../../components/NavBar/NavBar";
+import Emerald from "../../images/emerald.png";
 import "./Main.css";
 import "./Stars.css";
 import $ from "jquery";
@@ -50,7 +51,7 @@ class Main extends Component {
 									<img
 										id="emerald-img"
 										id="emerald"
-										src="assets/img/emerald.png"
+										src={Emerald}
 										alt="emerald"
 										height="80px"
 									/>

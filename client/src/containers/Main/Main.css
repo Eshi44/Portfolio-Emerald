@@ -1,9 +1,9 @@
-/* Elements */
+/* html and body width */
 html,
 body {
 	max-width: 100%;
-
 }
+/* breaks */
 hr {
 	margin-top: 10%;
 	height: 0.1px;
@@ -13,13 +13,13 @@ hr {
 #stop-overflow, #portfolio-container,#aboutme-overflow, #skills-block {
 	margin-right: 0;
 }
-/* Classes */
+
 .btn.btn-outline-success {
 	border-color: #25e0b6;
 	color: #25e0b6;
 }
 
-/* Intro Section*/
+
 #emerald {
 	vertical-align: middle;
 	margin-bottom: 1.5%;
@@ -43,12 +43,15 @@ hr {
 	font-size: 70px;
 	color: #fff;
 	text-align: left;
-	font-family: "Source Sans Pro", "sans-serif";
+	
+}
+#intro {
+	font-family: 'Roboto', sans-serif;
+	
 }
 #introtext {
-	font-size: 30px;
-	font-weight: bold;
-	font-family: "Roboto";
+	font-size: 28px;
+	font-family: 'Open Sans', sans-serif;
 }
 #gem {
 	height: 1em;
@@ -68,7 +71,6 @@ hr {
 
 
 /* media query */
-
 @media screen and (max-width: 770px) {
 	#about-image {
 		margin-left: 0%;
@@ -88,7 +90,6 @@ hr {
 	#title {
 		font-size: 50px;
 	} 
-
 	#introtext {
 		font-size: 16px;
 	}

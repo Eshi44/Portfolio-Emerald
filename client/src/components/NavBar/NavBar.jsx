@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Emerald from "../../images/emerald.png";
 import "./NavBar.css";
 import $ from "jquery";
 
@@ -52,7 +53,7 @@ class NavBar extends Component {
 					<img
 						id="emerald-img"
 						id="emeraldLogo"
-						src="assets/img/emerald.png"
+						src={Emerald}
 						alt="emerald"
 						height="60px"
 					/>
