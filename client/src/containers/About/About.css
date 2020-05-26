@@ -23,7 +23,11 @@ ul li{
 	display: inline;
   }
   ul li img {
-	  height: 40px;
+	  height: 35px;
+	  margin-left: 30px;
+  }
+  #icons-imgs {
+	  margin-top: 80px;
   }
 #skills-block {
 	background-color: #f9f9f9;
