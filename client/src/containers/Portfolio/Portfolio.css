@@ -6,9 +6,18 @@
 .BrainhubCarousel__arrows {
 	background-color: #02101a;
 }
+/* arrows background color on hover */
+.BrainhubCarousel__arrows:hover:enabled {
+	background-color:#25e0b6;
+}
 /* carousel img */
 #carousel-img {
 	height: 250px;
 	border: 2px solid #02101a;
 	border-radius: 10px;
+}
+/* carousel img hover effect */
+#carousel-img:hover {
+	border: 2px solid #25e0b6;
+	box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
