@@ -16,20 +16,16 @@
 	margin-bottom: 3%;
 	margin-top: 5%;
 }
+/* profile picture */
 #about-image {
-	height: 330px;
-	margin-left: 28%;
+	max-width: 100%;
 	border: 3px solid #25e0b6;
 	border-radius: 10px;
 }
+/* ABout text */
 #aboutMe-text {
 	color: rgb(0, 0, 0);
 	font-size: 22px;
-}
-#resume {
-	font-size: 25px;
-	color: rgb(0, 0, 0);
-	padding-bottom: 5%;
 }
 #scrumMaster {
 	width: 10%;
@@ -47,4 +43,18 @@
 #skills-text{
 	text-align: center;
 	margin-bottom: 3%;
+}
+
+/* media query */
+
+@media screen and (max-width: 1024px) {
+	#aboutMe-text {
+		margin-left: 5%;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	#about-image {
+		height: 330px;
+	}
 }

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./About.css";
 import SkillsCarousel from "../../components/Carousel/SkillsCarousel";
+import ProfileImg from "../../images/profile-pic.jpg";
 class About extends Component {
 	render() {
 		return (
@@ -13,14 +14,16 @@ class About extends Component {
 						About
 					</h1>
 					<div className="row" id="aboutme-overflow">
-						<div className="col-xs-2 col-sm-5  col-md-3 col-lg-4 ">
+					<div className="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
+						<div className="col-xs-1 col-sm-4 col-md-2 col-lg-3 ">
 							<img
-								src="assets/img/Profile-Photo.jpg"
+					
+								src={ProfileImg}
 								alt="Profile picture"
 								id="about-image"
 							/>
 						</div>
-						<div className="col-xs-7 col-sm-5  col-md-7 col-lg-5">
+						<div className="col-xs-7 col-sm-5 col-md-7 col-lg-5">
 							<p id="aboutMe-text">
 								{" "}
 								Hi! I'm Emerald, a Full-Stack Developer based in the Atlanta
@@ -42,7 +45,7 @@ class About extends Component {
 								target="_blank"
 							>
 								<img
-									src="assets/img/csm.png"
+									src={ProfileImg}
 									className="img-responsive"
 									data-toggle="tooltip"
 									id="scrumMaster"
@@ -63,32 +66,21 @@ class About extends Component {
 							<a href="mailto:e.hameliervolino@gmail.com?Subject=">
 								<i className="fas fa-envelope fa-3x"></i>
 							</a>
-
-							<a
-								href="https://github.com/Eshi44/Portfolio/blob/EmDevelop/Emerald%20Hamel-Iervolino%20Resume.pdf"
-								target="_blank"
-								id="resume"
-							>
-								{" "}
-								RESUME
-							</a>
 						</div>
 						<div className="col-xs-3 col-sm-2 col-md-2 col-lg-3"></div>
 					</div>
-					<div
-						className="container-fluid"
-						id="skills-block"
-					>
-						<div className="row">
-							<div className="col-12">
-						<h1 id="skills-text">Skills</h1>
-						</div>
-						</div>
-						<div className="row d-flex justify-content-center">
-							<SkillsCarousel />
+				</div>
+				<div className="container-fluid" id="skills-block">
+					<div className="row">
+						<div className="col-12">
+							<h1 id="skills-text">Skills</h1>
 						</div>
 					</div>
+					<div className="row d-flex justify-content-center">
+						<SkillsCarousel />
+					</div>
 				</div>
+
 				<hr></hr>
 			</>
 		);
