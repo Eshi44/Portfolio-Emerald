@@ -1,15 +1,3 @@
-.fab.fa-github-square.fa-3x {
-	color: rgb(0, 0, 0);
-	padding-right: 1%;
-}
-.fab.fa-linkedin.fa-3x {
-	color: rgb(0, 0, 0);
-	padding-right: 1%;
-}
-.fas.fa-envelope.fa-3x {
-	color: rgb(0, 0, 0);
-	padding-right: 1%;
-}
 #center-header-section-text {
 	color: rgb(0, 0, 0);
 	text-align: center;
@@ -31,6 +19,12 @@
 	width: 10%;
 	padding-bottom: 5%;
 }
+ul li{
+	display: inline;
+  }
+  ul li img {
+	  height: 40px;
+  }
 #skills-block {
 	background-color: #f9f9f9;
 	margin-top: 5%;
