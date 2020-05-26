@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import JavascriptIcon from "../../images/javascript.png";
 import "./SkillsCarousel.css";
 import NodeJS from "../../images/nodejs.png";
-import MySQL from "../../images/MySQL.png";
+import Mongo from "../../images/mongodb.png";
 import REACT from "../../images/reactjs.png";
 import jQuery from "../../images/jquery.png";
 import Heroku from "../../images/heroku.png";
@@ -12,6 +12,11 @@ import Bootstrap from "../../images/bootstrap.png";
 import Npm from "../../images/npm.png";
 import Travis from "../../images/travis-ci.png";
 import Webpack from "../../images/webpack.png";
+import Git from "../../images/git.png";
+import Jest from "../../images/jest.png";
+import Rest from "../../images/restful.png";
+import Html from "../../images/html.png";
+// import MySQL from "../../images/MySQL.png";
 
 class SkillsCarousel extends Component {
 	render() {
@@ -38,7 +43,7 @@ class SkillsCarousel extends Component {
 									<img className="d-block w-100" src={REACT} alt="Reactjs" />
 								</div>
 								<div className="col-3">
-									<img className="d-block w-100" src={MySQL} alt="MySQL" />
+									<img id="mongodb"className="d-block w-100" src={Mongo} alt="Mongodb" />
 								</div>
 							</div>
 						</div>
@@ -77,6 +82,25 @@ class SkillsCarousel extends Component {
 								<div className="col-3">
                                 <img
 										id="bootstrap-icon"className="d-block w-100" src={Bootstrap} alt="Bootstrap"/>
+								</div>
+							</div>
+						</div>
+                        <div className="carousel-item">
+							<div className="row">
+								<div className="col-3">
+                                <img className="d-block w-100" src={Git} alt="Git" />
+									
+								</div>
+								<div className="col-3">
+									<img className="d-block w-100" src={Jest} alt="Jest" />
+								</div>
+								<div className="col-3">
+									{" "}
+									<img id="rest"className="d-block w-100" src={Rest} alt="Rest" />
+								</div>
+								<div className="col-3">
+                                <img
+									 className="d-block w-100" src={Html} alt="Html"/>
 								</div>
 							</div>
 						</div>
