@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Emerald from "../../images/emerald.png";
+import PDF from "../../documents/Emerald-Sea-Hamel-Iervolino-Resume.pdf";
 import "./NavBar.css";
 import $ from "jquery";
 
@@ -69,13 +70,9 @@ class NavBar extends Component {
 								<button id="contact">Contact</button>
 							</li>
 							<li>
-								<button
-									type="button"
-									className="btn btn-outline-primary"
-									id="btn-resume"
-								>
+								<a href={PDF} target="_blank" id="btn-resume">
 									Resume
-								</button>
+								</a>
 							</li>
 						</ul>
 					</div>
