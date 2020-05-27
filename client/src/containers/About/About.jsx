@@ -49,7 +49,7 @@ class About extends Component {
 								<li>
 									{" "}
 									<a href="https://github.com/Eshi44" target="_blank">
-										<img src={Github} alt="Github Profile" />
+										<img id="href-icon" src={Github} alt="Github Profile" />
 									</a>
 								</li>
 								<li>
@@ -58,13 +58,13 @@ class About extends Component {
 										href="https://www.linkedin.com/in/emerald-hamel-iervolino-a878a5a4/"
 										target="_blank"
 									>
-										<img src={Linkedin} alt="LinkedIn Profile" />
+										<img id="href-icon" src={Linkedin} alt="LinkedIn Profile" />
 									</a>{" "}
 								</li>
 								<li>
 									{" "}
 									<a href="mailto:e.hameliervolino@gmail.com?Subject=">
-										<img src={Email} alt="Email" />
+										<img id="href-icon" src={Email} alt="Email" />
 									</a>
 								</li>
 								<li>
@@ -73,7 +73,7 @@ class About extends Component {
 										href="https://www.scrumalliance.org/community/profile/ehamelierv"
 										target="_blank"
 									>
-										<img src={CSM} alt="Scrum Alliance" />
+										<img id="href-icon" src={CSM} alt="Scrum Alliance" />
 									</a>
 								</li>
 							</ul>

@@ -20,12 +20,48 @@ import MySQL from "../../images/MySQL.png";
 import PWA from "../../images/pwa.png";
 import Saas from "../../images/sass.png";
 import CSS from "../../images/css.png";
+import Carousel, { Dots } from "@brainhubeu/react-carousel";
+import '@brainhubeu/react-carousel/lib/style.css';
 
 class SkillsCarousel extends Component {
 	render() {
 		return (
 			<>
-				<div
+
+<Carousel slidesPerScroll={1} slidesPerPage={6} infinite arrows  centered
+					 breakpoints={{
+						640: {
+						  slidesPerPage: 1,
+						  arrows: true
+						},
+						900: {
+						  slidesPerPage: 3,
+						  arrows: true
+						}
+					  }}>
+					<img id="skill-img" src={JavascriptIcon} />
+					<img id="skill-img" src={NodeJS} /> 
+					<img id="skill-img" src={REACT} /> 
+					<img id="skill-img" src={Mongo} /> 
+					<img id="skill-img" src={Heroku} /> 
+					<img id="skill-img" src={Handlebars} /> 
+					<img id="skill-img" src={jQuery} />
+					<img id="skill-img" src={Express} /> 
+					<img id="skill-img" src={Webpack} /> 
+					<img id="skill-img" src={Travis} /> 
+					<img id="skill-img" src={Npm} /> 
+					<img id="skill-img" src={Bootstrap} /> 
+					<img id="skill-img" src={Git} /> 
+					<img id="skill-img" src={Jest} /> 
+					<img id="skill-img" src={Rest} />
+					<img id="skill-img" src={Html} /> 
+					<img id="skill-img" src={MySQL} /> 
+					<img id="skill-img" src={PWA} /> 
+					<img id="skill-img" src={Saas} /> 
+					<img id="skill-img" src={CSS} /> 
+					</Carousel>
+
+				{/* <div
 					id="carouselExampleControls"
 					className="carousel slide "
 					data-ride="carousel"
@@ -151,7 +187,7 @@ class SkillsCarousel extends Component {
 						></span>
 						<span className="sr-only">Next</span>
 					</a>
-				</div>
+				</div> */}
 			</>
 		);
 	}

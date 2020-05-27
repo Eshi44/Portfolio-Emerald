@@ -24,14 +24,14 @@ ul li {
 	display: inline;
 }
 /* unordered list img */
-.row ul li img {
+#href-icon{
 	height: 35px;
 	margin-left: 30px;
 	-webkit-border-radius: 50px;
     border-radius: 50px;
 }
 /* unordered icon hover shadow */
-.row ul li img:hover {
+#href-icon:hover {
 	-webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
 }

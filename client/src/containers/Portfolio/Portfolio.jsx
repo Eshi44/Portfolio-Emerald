@@ -7,7 +7,6 @@ import EatDaBurger from "../../images/eat-da-burger.png";
 import ConcertHunt from "../../images/concerthunt.png";
 import EmployeeDir from "../../images/employee-directory.png";
 import TeamProfileGen from "../../images/team-profile-generator.png";
-import $ from "jquery";
 import "./Portfolio.css";
 
 class Portfolio extends Component {

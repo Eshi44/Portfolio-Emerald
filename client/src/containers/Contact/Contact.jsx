@@ -12,7 +12,7 @@ class Contact extends Component {
 						<div className="col-sm-12">
 							<form className="block form-horizontal" id="contact-form">
 								<div className="form-group">
-									<label for="name" className="col-sm-2 control-label">
+									<label forHTML="name" className="col-sm-2 control-label">
 										Name
 									</label>
 									<div className="col-sm-10">
@@ -25,7 +25,7 @@ class Contact extends Component {
 									</div>
 								</div>
 								<div className="form-group">
-									<label for="email" className="col-sm-2 control-label">
+									<label forHTML="email" className="col-sm-2 control-label">
 										Email
 									</label>
 									<div className="col-sm-10">
@@ -38,7 +38,7 @@ class Contact extends Component {
 									</div>
 								</div>
 								<div className="form-group">
-									<label className="col-sm-2 control-label" for="msg">
+									<label className="col-sm-2 control-label" forHTML="msg">
 										Message
 									</label>
 									<div className="col-sm-10">
