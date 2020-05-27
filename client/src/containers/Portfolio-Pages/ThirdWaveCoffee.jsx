@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import NavBar from "../../components/NavBar/NavBar";
-import { Link } from "react-router-dom";
 import ThirdWaveMain from "../../images/third-wave.jpg";
 import "./Pages.css";
 
@@ -63,8 +62,8 @@ class ThirdWaveCoffee extends Component {
 								Token. Environmental variables are also hidden. Users can
 								securly login and keep track of their coffee creations.
 							</p>
-							<Link to="https://third-wave-coffee-app.herokuapp.com/"><button id="button-links" type="button" class="btn btn-primary">Website</button> </Link>
-                            <Link to="https://github.com/Eshi44/Third-Wave-Coffee"><button id="button-links" type="button" class="btn btn-primary">Github</button></Link>
+							<a href="https://third-wave-coffee-app.herokuapp.com/" target="blank"><button id="button-links" type="button" class="btn btn-primary">Website</button> </a>
+                            <a href="https://github.com/Eshi44/Third-Wave-Coffee" target="blank"><button id="button-links" type="button" class="btn btn-primary">Github</button></a>
 						</div>
 					</div>
 				</div>
