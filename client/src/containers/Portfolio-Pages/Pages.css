@@ -1,0 +1,27 @@
+#margin-space {
+	margin-top: 5%;
+}
+#third-wave-img {
+	height: 450px;
+	border: 3px solid #02101a;
+	border-radius: 10px;
+}
+#button-skills {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 2%;
+    margin-top: 2%;
+	border-radius: 20px;
+	background: rgb(15, 72, 73);
+	background: linear-gradient(
+		167deg,
+		rgba(15, 72, 73, 1) 1%,
+		rgba(36, 217, 177, 1) 43%,
+		rgba(37, 224, 182, 1) 100%
+	);
+	border: none;
+}
+#button-skills:hover {
+    -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
