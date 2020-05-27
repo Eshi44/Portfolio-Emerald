@@ -31,8 +31,8 @@ class Portfolio extends Component {
 						  arrows: true
 						}
 					  }}>
-					<img id="carousel-img" src={PokeBattle} />
-					<a href="" target="_blank"><img id="carousel-img" src={ConcertHunt} /> </a>
+					<Link to="/pokebattle"><img id="carousel-img" src={PokeBattle} /></Link>
+					<Link to="/concert-hunt"><img id="carousel-img" src={ConcertHunt} /> </Link>
 					<a href="" target="_blank"><img id="carousel-img" src={EatDaBurger} /> </a>
 					<a href="" target="_blank"><img id="carousel-img" src={EmployeeDir} /> </a>
 					<a href="" target="_blank"><img id="carousel-img" src={TeamProfileGen} /> </a>
