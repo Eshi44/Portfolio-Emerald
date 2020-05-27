@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import NavBar from "../../components/NavBar/NavBar";
 import PokeMain from "../../images/poke-battle-screenshot.png";
-
 import "./Pages.css";
 
 class PokeBattle extends Component {
@@ -20,14 +19,14 @@ class PokeBattle extends Component {
 								id="title-of-page"
 								className="animate__animated animate__bounceInRight"
 							>
-								PokeBattle
+								Pokémon
 							</h1>
 
 							<button id="button-skills" type="button" class="btn btn-primary">
 								Express
 							</button>
 							<button id="button-skills" type="button" class="btn btn-primary">
-								Foundation.css
+								Foundation
 							</button>
 							<button id="button-skills" type="button" class="btn btn-primary">
 								Handlebars

@@ -13,7 +13,7 @@ function App() {
       <Route exact path="/main" component={Main} /> 
       <Route exact path="/third-wave-coffee" component={ThirdWaveCoffee} /> 
       <Route exact path="/concert-hunt" component={ConcertHunt} /> 
-      <Route exact path="/pokebattle" component={ConcertHunt} /> 
+      <Route exact path="/pokebattle" component={PokeBattle} /> 
     </Router>
   );
 }
