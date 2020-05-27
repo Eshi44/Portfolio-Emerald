@@ -1,0 +1,19 @@
+/* footer */
+footer#footer {
+	bottom: 0;
+	width: 100%;
+	background-color: #02101a;
+	box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+	height: 50px;
+}
+/* footer text alignment */
+#designed {
+	padding-top: 12px;
+}
+/* hover effect */
+#designed:hover {
+	color: #25e0b6;
+}

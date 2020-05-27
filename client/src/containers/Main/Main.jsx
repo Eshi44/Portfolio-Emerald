@@ -7,6 +7,7 @@ import Emerald from "../../images/emerald.png";
 import "./Main.css";
 import "./Stars.css";
 import $ from "jquery";
+import Footer from "../../components/Footer/Footer";
 
 class Main extends Component {
 	componentDidMount() {
@@ -81,6 +82,7 @@ class Main extends Component {
 				<About />
 				<Portfolio />
 				<Contact />
+                <Footer />
 			</>
 		);
 	}

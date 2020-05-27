@@ -80,6 +80,7 @@ class About extends Component {
 						</div>
 					</div>
 				</div>
+				<hr></hr>
 				<div className="container-fluid" id="skills-block">
 					<div className="row">
 						<div className="col-12">

@@ -12,16 +12,17 @@ class Contact extends Component {
 						<div className="col-sm-12" id="get-in-touch">
 						<p id="contact-text">I am currently looking for new opportunities!</p> 
 
-						<button
+						<a href="mailto:e.hameliervolino@gmail.com?Subject="><button
 									type="button"
 									id="button-contact"
 									className="btn btn-outline-success"
 								>
 									Say Hello 
-								</button>
+								</button> </a>
 						</div>
 					</div>
 				</div>
+				<hr></hr>
 			</>
 		);
 	}
