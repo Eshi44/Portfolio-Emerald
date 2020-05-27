@@ -12,7 +12,7 @@ class ThirdWaveCoffee extends Component {
 				<div className="container" id="gray-bkgd">
 					<div className="row" id="margin-space">
 						<div className=" col-md-5 col-lg-5 col-xl-5">
-							<img id="third-wave-img" src={ThirdWaveMain} />
+							<img id="page-portfolio-img" src={ThirdWaveMain} />
 						</div>
                         <div className=" col-md-2 col-lg-2 col-xl-2"></div>
 						<div className=" col-md-5 col-lg-5 col-xl-5">

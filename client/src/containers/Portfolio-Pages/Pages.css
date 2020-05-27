@@ -1,19 +1,23 @@
+/* margin top */
 #margin-space {
 	margin-top: 9%;
 }
-#third-wave-img {
+/* portfolio image size and border */
+#page-portfolio-img {
 	height: 450px;
 	border: 3px solid #02101a;
 	border-radius: 10px;
 }
-#third-wave-img:hover {
+/* portfolio image border effect on hover */
+#page-portfolio-img:hover {
 	border: 3px solid #25e0b6;
 }
+/* skills button */
 #button-skills {
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-    margin-left: 2%;
-    margin-top: 2%;
+	font-weight: bold;
+	font-family: "Open Sans", sans-serif;
+	margin-left: 2%;
+	margin-top: 2%;
 	border-radius: 20px;
 	background: rgb(15, 72, 73);
 	background: linear-gradient(
@@ -24,16 +28,19 @@
 	);
 	border: none;
 }
+/* skills button hover effect */
 #button-skills:hover {
-    -webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
 }
+/* title of project */
 #title-of-page {
-	font-family: 'Roboto', sans-serif;
+	font-family: "Roboto", sans-serif;
 	color: #02101a;
 	font-weight: bold;
 	margin-bottom: 4%;
 }
+/* gray background */
 #gray-bkgd {
 	padding: 20px;
 	padding-bottom: 70px;
@@ -41,24 +48,27 @@
 	padding-right: 40px;
 	background-color: #f9f9f9;
 }
+/* project description */
 #info-on-project {
 	margin-top: 8%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	color: #02101a;
 	font-size: 16px;
 }
+/* website and github link buttons */
 #button-links {
 	font-weight: bold;
 	color: rgba(37, 224, 182, 1);
 	font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-    margin-left: 18%;
-    margin-top: 2%;
+	font-family: "Open Sans", sans-serif;
+	margin-left: 18%;
+	margin-top: 2%;
 	border-radius: 5px;
-	background: #f9f9f9 ;
-	border: 2px solid rgba(37, 224, 182, 1) ;
+	background: #f9f9f9;
+	border: 2px solid rgba(37, 224, 182, 1);
 }
+/* website and github link buttons hover effect */
 #button-links:hover {
 	color: #02101a;
-	border: 2px solid #02101a ;
+	border: 2px solid #02101a;
 }
