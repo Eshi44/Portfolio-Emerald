@@ -5,7 +5,8 @@ body {
 }
 /* breaks */
 hr {
-	margin-top: 10%;
+	margin-top: 5%;
+    margin-bottom: 5%;
 	height: 0.1px;
 	background-color: rgb(163, 163, 163);
 	width: 80%;

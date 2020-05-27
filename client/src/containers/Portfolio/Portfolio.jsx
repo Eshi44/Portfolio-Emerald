@@ -18,7 +18,7 @@ class Portfolio extends Component {
 		return (
 			<>
 				<div className="container-fluid" id="portfolio-container">
-					<h1 id="center-header-section-text">Portfolio</h1>
+					<h1 id="portfolio-text">Portfolio</h1>
 					<Carousel slidesPerScroll={1} slidesPerPage={3} infinite arrows  centered
 					 breakpoints={{
 						640: {

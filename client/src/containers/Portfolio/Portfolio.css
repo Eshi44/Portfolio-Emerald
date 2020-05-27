@@ -1,6 +1,16 @@
 /* portfolio container */
 #portfolio-container {
    padding-top: 40px;
+   padding-bottom: 150px;
+   background-color: #02101a;
+}
+/* portfolio text header */
+#portfolio-text {
+		color: #ffffff;
+		text-align: center;
+		margin-bottom: 3%;
+		margin-top: 5%;
+		font-family: 'Roboto', sans-serif;
 }
 /* carousel arrow color */
 .BrainhubCarousel__arrows {
@@ -13,11 +23,11 @@
 /* carousel img */
 #carousel-img {
 	height: 250px;
-	border: 2px solid #02101a;
+	border: 3px solid #ffffff;
 	border-radius: 10px;
 }
 /* carousel img hover effect */
 #carousel-img:hover {
-	border: 2px solid #25e0b6;
+	border: 3px solid #25e0b6;
 	box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
