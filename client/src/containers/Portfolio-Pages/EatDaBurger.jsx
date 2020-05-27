@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import NavBar from "../../components/NavBar/NavBar";
 import EatBurgerMain from "../../images/eat-da-burger-screenshot.png"
 import "./Pages.css";
 
@@ -65,7 +66,7 @@ class EatDaBurger extends Component {
 								{" "}
 								This is a A Node, Express, MySQL, Handlebars, ORM application
 								that allows users to create and devour their own personalized
-								burgers <p></p>
+								burgers. <p></p>
 								Eat-da-Burger is a restaurant app that lets users view, order,
 								and consume their personalized burgers using Node, Express,
 								MySQL, Handlebars, and ORM. Node and MySQL are used to query and
