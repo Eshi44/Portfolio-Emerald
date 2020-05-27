@@ -14,7 +14,7 @@ class About extends Component {
 				<div className="container-fluid" id="about-me-container">
 					<h1
 						id="center-header-section-text"
-						className="animate__animated animate__bounceInLeft"
+						
 					>
 						About
 					</h1>
