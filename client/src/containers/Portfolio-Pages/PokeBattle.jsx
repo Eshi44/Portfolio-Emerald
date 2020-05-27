@@ -32,6 +32,9 @@ class PokeBattle extends Component {
 								Handlebars
 							</button>
 							<button id="button-skills" type="button" class="btn btn-primary">
+								Heroku
+							</button>
+							<button id="button-skills" type="button" class="btn btn-primary">
 								HTML & CSS
 							</button>
 							<button id="button-skills" type="button" class="btn btn-primary">
@@ -56,7 +59,7 @@ class PokeBattle extends Component {
 							<p id="info-on-project">
 								{" "}
 								This is a Node Express MySQL application that allows users to
-								settle their arguments through battling Pokemon <p></p>
+								settle their arguments through battling Pokemon. <p></p>
 								With the help of Pokémon API, a modern-day Pokémon equivalent to
 								the coin toss was created. After reviewing the rules, users can
 								start battle. Both trainers enter their username and generate a
