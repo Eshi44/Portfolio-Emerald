@@ -7,6 +7,7 @@ import EatDaBurger from "../../images/eat-da-burger.png";
 import ConcertHunt from "../../images/concerthunt.png";
 import EmployeeDir from "../../images/employee-directory.png";
 import TeamProfileGen from "../../images/team-profile-generator.png";
+import { Link } from "react-router-dom";
 import "./Portfolio.css";
 
 class Portfolio extends Component {
@@ -30,12 +31,12 @@ class Portfolio extends Component {
 						  arrows: true
 						}
 					  }}>
-					<a href="" target="_blank"><img id="carousel-img" src={PokeBattle} /></a>
+					<img id="carousel-img" src={PokeBattle} />
 					<a href="" target="_blank"><img id="carousel-img" src={ConcertHunt} /> </a>
 					<a href="" target="_blank"><img id="carousel-img" src={EatDaBurger} /> </a>
 					<a href="" target="_blank"><img id="carousel-img" src={EmployeeDir} /> </a>
 					<a href="" target="_blank"><img id="carousel-img" src={TeamProfileGen} /> </a>
-					<a href="" target="_blank"><img id="carousel-img" src={ThirdWaveCoffee} /> </a>
+					<Link to="/third-wave-coffee"><img id="carousel-img" src={ThirdWaveCoffee} /></Link>
 					</Carousel>
 				</div>
 
