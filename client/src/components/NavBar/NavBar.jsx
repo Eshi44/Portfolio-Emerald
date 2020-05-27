@@ -24,7 +24,6 @@ class NavBar extends Component {
 		});
 	}
 	// scroll function for about btn
-
 	scrollFuncAbout() {
 		$("#about").click(function () {
 			$("html, body").animate(
@@ -36,7 +35,6 @@ class NavBar extends Component {
 		});
 	}
 	// scroll function for contact bt
-
 	scrollFuncContact() {
 		$("#contact").click(function () {
 			$("html, body").animate(

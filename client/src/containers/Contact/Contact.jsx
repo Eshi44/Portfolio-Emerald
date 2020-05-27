@@ -6,52 +6,19 @@ class Contact extends Component {
 		return (
 			<>
 				<div className="container-fluid" id="contact-container">
-					<h1 id="center-header-section-text">Contact</h1>
+					<h1 id="center-text-header">Contact</h1>
 
 					<div className="row">
-						<div className="col-sm-12">
-							<form className="block form-horizontal" id="contact-form">
-								<div className="form-group">
-									<label forHTML="name" className="col-sm-2 control-label">
-										Name
-									</label>
-									<div className="col-sm-10">
-										<input
-											type="email"
-											className="form-control"
-											id="name"
-											placeholder="Name"
-										/>
-									</div>
-								</div>
-								<div className="form-group">
-									<label forHTML="email" className="col-sm-2 control-label">
-										Email
-									</label>
-									<div className="col-sm-10">
-										<input
-											type="password"
-											className="form-control"
-											id="email"
-											placeholder="Email"
-										/>
-									</div>
-								</div>
-								<div className="form-group">
-									<label className="col-sm-2 control-label" forHTML="msg">
-										Message
-									</label>
-									<div className="col-sm-10">
-										<textarea
-											id="msg"
-											className="form-control"
-											rows="3"
-											placeholder="Message"
-										></textarea>
-									</div>
-								</div>
-								<button className="btn btn-dark">Submit</button>
-							</form>
+						<div className="col-sm-12" id="get-in-touch">
+						<p id="contact-text">I am currently looking for new opportunities!</p> 
+
+						<button
+									type="button"
+									id="button-contact"
+									className="btn btn-outline-success"
+								>
+									Say Hello 
+								</button>
 						</div>
 					</div>
 				</div>
