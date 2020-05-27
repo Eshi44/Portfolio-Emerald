@@ -3,6 +3,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import ThirdWaveMain from "../../images/third-wave.jpg";
 import "./Pages.css";
 
+
 class ThirdWaveCoffee extends Component {
 	render() {
 		return (

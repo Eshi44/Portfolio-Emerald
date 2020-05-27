@@ -3,6 +3,7 @@ import Emerald from "../../images/emerald.png";
 import PDF from "../../documents/Emerald-Sea-Hamel-Iervolino-Resume.pdf";
 import "./NavBar.css";
 import $ from "jquery";
+import { Link } from "react-router-dom";
 
 class NavBar extends Component {
 	componentDidMount() {
@@ -51,13 +52,13 @@ class NavBar extends Component {
 		return (
 			<>
 				<nav className="navbar" id="nav-bar">
-					<img
+				<Link to="/"><img
 						id="emerald-img"
 						id="emeraldLogo"
 						src={Emerald}
 						alt="emerald"
 						height="60px"
-					/>
+					/></Link>
 					<div id="float-div">
 						<ul>
 							<li>
