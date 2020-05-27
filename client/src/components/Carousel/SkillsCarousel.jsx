@@ -21,173 +21,54 @@ import PWA from "../../images/pwa.png";
 import Saas from "../../images/sass.png";
 import CSS from "../../images/css.png";
 import Carousel, { Dots } from "@brainhubeu/react-carousel";
-import '@brainhubeu/react-carousel/lib/style.css';
+import "@brainhubeu/react-carousel/lib/style.css";
 
 class SkillsCarousel extends Component {
 	render() {
 		return (
 			<>
-
-<Carousel slidesPerScroll={1} slidesPerPage={6} infinite arrows  centered
-					 breakpoints={{
+				<Carousel
+					autoPlay={2000}
+					animationSpeed={1000}
+					infinite
+					slidesPerScroll={1}
+					slidesPerPage={6}
+					infinite
+					arrows
+					centered
+					breakpoints={{
 						640: {
-						  slidesPerPage: 1,
-						  arrows: true
+							slidesPerPage: 1,
+							arrows: true,
 						},
 						900: {
-						  slidesPerPage: 3,
-						  arrows: true
-						}
-					  }}>
-					<img id="skill-img" src={JavascriptIcon} />
-					<img id="skill-img" src={NodeJS} /> 
-					<img id="skill-img" src={REACT} /> 
-					<img id="skill-img" src={Mongo} /> 
-					<img id="skill-img" src={Heroku} /> 
-					<img id="skill-img" src={Handlebars} /> 
-					<img id="skill-img" src={jQuery} />
-					<img id="skill-img" src={Express} /> 
-					<img id="skill-img" src={Webpack} /> 
-					<img id="skill-img" src={Travis} /> 
-					<img id="skill-img" src={Npm} /> 
-					<img id="skill-img" src={Bootstrap} /> 
-					<img id="skill-img" src={Git} /> 
-					<img id="skill-img" src={Jest} /> 
-					<img id="skill-img" src={Rest} />
-					<img id="skill-img" src={Html} /> 
-					<img id="skill-img" src={MySQL} /> 
-					<img id="skill-img" src={PWA} /> 
-					<img id="skill-img" src={Saas} /> 
-					<img id="skill-img" src={CSS} /> 
-					</Carousel>
-
-				{/* <div
-					id="carouselExampleControls"
-					className="carousel slide "
-					data-ride="carousel"
-                    data-interval="2000"
+							slidesPerPage: 3,
+							arrows: true,
+						},
+					}}
 				>
-					<div className="carousel-inner">
-						<div className="carousel-item active">
-							<div className="row">
-								<div className="col-3">
-									<img
-										className="d-block w-100" src={JavascriptIcon} alt="Javascript"/>
-								</div>
-								<div className="col-3">
-									<img className="d-block w-100" src={NodeJS} alt="Nodejs" />
-								</div>
-								<div className="col-3">
-									{" "}
-									<img className="d-block w-100" src={REACT} alt="Reactjs" />
-								</div>
-								<div className="col-3">
-									<img id="mongodb"className="d-block w-100" src={Mongo} alt="Mongodb" />
-								</div>
-							</div>
-						</div>
-                        <div className="carousel-item">
-							<div className="row">
-								<div className="col-3">
-                                <img className="d-block w-100" src={Heroku} alt="Heroku" />
-									
-								</div>
-								<div className="col-3">
-									<img id="handlebars" className="d-block w-100" src={Handlebars} alt="Handlebars" />
-								</div>
-								<div className="col-3">
-									{" "}
-									<img className="d-block w-100" src={jQuery} alt="jQuery" />
-								</div>
-								<div className="col-3">
-                                <img
-										className="d-block w-100" src={Express} alt="Expressjs"/>
-								</div>
-							</div>
-						</div>
-                        <div className="carousel-item">
-							<div className="row">
-								<div className="col-3">
-                                <img id="webpack" className="d-block w-100" src={Webpack} alt="Webpack" />
-									
-								</div>
-								<div className="col-3">
-									<img id="travis-ci"className="d-block w-100" src={Travis} alt="Travis CI" />
-								</div>
-								<div className="col-3">
-									{" "}
-									<img id="npm"className="d-block w-100" src={Npm} alt="Npm" />
-								</div>
-								<div className="col-3">
-                                <img
-										id="bootstrap-icon"className="d-block w-100" src={Bootstrap} alt="Bootstrap"/>
-								</div>
-							</div>
-						</div>
-                        <div className="carousel-item">
-							<div className="row">
-								<div className="col-3">
-                                <img className="d-block w-100" src={Git} alt="Git" />
-									
-								</div>
-								<div className="col-3">
-									<img className="d-block w-100" src={Jest} alt="Jest" />
-								</div>
-								<div className="col-3">
-									{" "}
-									<img id="rest"className="d-block w-100" src={Rest} alt="Rest" />
-								</div>
-								<div className="col-3">
-                                <img
-									 className="d-block w-100" src={Html} alt="Html"/>
-								</div>
-							</div>
-						</div>
-                        <div className="carousel-item">
-							<div className="row">
-								<div className="col-3">
-                                <img className="d-block w-100" src={MySQL} alt="MySQL" />
-									
-								</div>
-								<div className="col-3">
-									<img id="pwa-icon"className="d-block w-100" src={PWA} alt="PWA" />
-								</div>
-								<div className="col-3">
-									{" "}
-									<img className="d-block w-100" src={Saas} alt="Saas" />
-								</div>
-								<div className="col-3">
-                                <img
-									 className="d-block w-100" src={CSS} alt="CSS"/>
-								</div>
-							</div>
-						</div>
-					</div>
-					<a
-						className="carousel-control-prev"
-						href="#carouselExampleControls"
-						role="button"
-						data-slide="prev"
-					>
-						<span
-							className="carousel-control-prev-icon"
-							aria-hidden="true"
-						></span>
-						<span className="sr-only">Previous</span>
-					</a>
-					<a
-						className="carousel-control-next"
-						href="#carouselExampleControls"
-						role="button"
-						data-slide="next"
-					>
-						<span
-							className="carousel-control-next-icon"
-							aria-hidden="true"
-						></span>
-						<span className="sr-only">Next</span>
-					</a>
-				</div> */}
+					<img id="skill-img" src={JavascriptIcon} />
+					<img id="skill-img" src={NodeJS} />
+					<img id="skill-img" src={REACT} />
+					<img id="skill-img" src={Mongo} />
+					<img id="skill-img" src={Heroku} />
+					<img id="skill-img" src={Handlebars} />
+					<img id="skill-img" src={jQuery} />
+					<img id="skill-img" src={Express} />
+					<img id="skill-img" src={Webpack} />
+					<img id="skill-img" src={Travis} />
+					<img id="skill-img" src={Npm} />
+					<img id="skill-img" src={Bootstrap} />
+					<img id="skill-img" src={Git} />
+					<img id="skill-img" src={Jest} />
+					<img id="skill-img" src={Rest} />
+					<img id="skill-img" src={Html} />
+					<img id="skill-img" src={MySQL} />
+					<img id="skill-img" src={PWA} />
+					<img id="skill-img" src={Saas} />
+					<img id="skill-img" src={CSS} />
+				</Carousel>
+
 			</>
 		);
 	}
