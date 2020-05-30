@@ -88,4 +88,8 @@ nav div ul li {
 	#float-div {
 	margin-right:0;
 	}
+	#btn-resume {
+		margin-top: 3%;
+		display: flex;
+	}
   }
