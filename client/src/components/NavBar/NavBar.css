@@ -29,6 +29,7 @@ nav div ul li {
 #about,
 #contact {
 	color: #ffffff;
+	font-size: 18px;
 	text-decoration: none;
 	background-color: #02101a;
 	border-color: #02101a;
@@ -77,3 +78,14 @@ nav div ul li {
 	transform: rotate(100deg);
 	filter: drop-shadow(3px 3px 3px rgb(20, 104, 45));
 }
+
+
+@media screen and (max-width: 375px) {
+	#about, #portfolio, #contact {
+		display: none; 
+	
+	}
+	#float-div {
+	margin-right:0;
+	}
+  }
