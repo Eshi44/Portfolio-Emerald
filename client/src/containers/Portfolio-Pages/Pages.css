@@ -4,7 +4,9 @@
 }
 /* portfolio image size and border */
 #page-portfolio-img {
-	height: 450px;
+	/* height: 450px; */
+	width: 100%;
+    height: auto;
 	border: 3px solid #02101a;
 	border-radius: 10px;
 }
@@ -72,3 +74,9 @@
 	color: #02101a;
 	border: 2px solid #02101a;
 }
+@media screen and (min-width: 1280px) {
+	#page-portfolio-img {
+		width: 550px;
+		height: 450px;
+	}
+  }
