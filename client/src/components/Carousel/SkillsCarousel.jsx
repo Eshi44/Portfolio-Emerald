@@ -11,7 +11,7 @@ import Handlebars from "../../images/handlebars.png";
 import Bootstrap from "../../images/bootstrap.png";
 import Npm from "../../images/npm.png";
 import Travis from "../../images/travis-ci.png";
-import Webpack from "../../images/webpack.png";
+import TypeScript from "../../images/typescript.png";
 import Git from "../../images/git.png";
 import Jest from "../../images/jest.png";
 import Rest from "../../images/restful.png";
@@ -80,9 +80,9 @@ class SkillsCarousel extends Component {
 					<ReactTooltip id="express" type="dark">
 						<span>Express.js</span>
 					</ReactTooltip></div>
-					<div><img data-tip data-for="webpack" id="skill-img" src={Webpack} />
-					<ReactTooltip id="webpack" type="dark">
-						<span>Webpack</span>
+					<div><img data-tip data-for="typescript" id="skill-img" src={TypeScript} />
+					<ReactTooltip id="typescript" type="dark">
+						<span>TypeScript</span>
 					</ReactTooltip></div>
 					<div><img data-tip data-for="travis" id="skill-img" src={Travis} />
 					<ReactTooltip id="travis" type="dark">
