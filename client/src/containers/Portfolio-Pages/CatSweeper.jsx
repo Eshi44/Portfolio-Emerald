@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavBar from "../../components/NavBar/NavBar";
+import NavBar from "../../components/NavBar/NavBarPages";
 import CatSweeperMain from "../../images/catsweeper-screenshot.png";
 import "./Pages.css";
 

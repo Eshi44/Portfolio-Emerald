@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavBar from "../../components/NavBar/NavBar";
+import NavBar from "../../components/NavBar/NavBarPages";
 import ConcertMain from "../../images/concerthunt-screenshot.png";
 import "./Pages.css";
 class ConcertHunt extends Component {

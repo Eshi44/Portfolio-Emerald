@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavBar from "../../components/NavBar/NavBar";
+import NavBar from "../../components/NavBar/NavBarPages";
 import PokeMain from "../../images/poke-battle-screenshot.png";
 import "./Pages.css";
 

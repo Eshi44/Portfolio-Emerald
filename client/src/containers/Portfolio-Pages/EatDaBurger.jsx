@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavBar from "../../components/NavBar/NavBar";
+import NavBar from "../../components/NavBar/NavBarPages";
 import EatBurgerMain from "../../images/eat-da-burger-screenshot.png"
 import "./Pages.css";
 
