@@ -7,6 +7,7 @@ import EatDaBurger from "../../images/eat-da-burger.png";
 import ConcertHunt from "../../images/concerthunt.png";
 import EmployeeDir from "../../images/employee-directory.png";
 import TeamProfileGen from "../../images/team-profile-generator.png";
+import CatSweeper from "../../images/catsweeper-page.png";
 import { Link } from "react-router-dom";
 import "./Portfolio.css";
 
@@ -36,6 +37,7 @@ class Portfolio extends Component {
 					<Link to="/eat-da-burger"><img id="carousel-img" src={EatDaBurger} /> </Link>
 					<Link to="/employee-directory"><img id="carousel-img" src={EmployeeDir} /> </Link>
 					<Link to="/team-generator"><img id="carousel-img" src={TeamProfileGen} /> </Link>
+					<Link to="/cat-sweeper"><img id="carousel-img" src={CatSweeper} /> </Link>
 					<Link to="/third-wave-coffee"><img id="carousel-img" src={ThirdWaveCoffee} /></Link>
 					</Carousel>
 				</div>

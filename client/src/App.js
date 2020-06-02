@@ -7,7 +7,7 @@ import PokeBattle from "../src/containers/Portfolio-Pages/PokeBattle";
 import EatDaBurger from "../src/containers/Portfolio-Pages/EatDaBurger";
 import EmployeeDirectory from "../src/containers/Portfolio-Pages/EmployeeDirectory";
 import TeamGenerator from "../src/containers/Portfolio-Pages/TeamGenerator";
-
+import CatSweeper from "../src/containers/Portfolio-Pages/CatSweeper";
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
       <Route exact path="/eat-da-burger" component={EatDaBurger} /> 
       <Route exact path="/employee-directory" component={EmployeeDirectory} /> 
       <Route exact path="/team-generator" component={TeamGenerator} /> 
+      <Route exact path="/cat-sweeper" component={CatSweeper} /> 
     </Router>
   );
 }
