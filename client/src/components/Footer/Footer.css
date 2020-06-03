@@ -12,8 +12,10 @@ footer#footer {
 /* footer text alignment */
 #designed {
 	padding-top: 12px;
+	color: #ffffff;
 }
 /* hover effect */
 #designed:hover {
 	color: #25e0b6;
+	text-decoration: underline;
 }

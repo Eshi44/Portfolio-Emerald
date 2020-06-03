@@ -5,7 +5,7 @@ const Footer = () => {
 	return (
 		<>
 			<footer id="footer">
-				<p id="designed">Designed & Built by Emerald Sea</p>
+			<a href="https://github.com/Eshi44/Portfolio-Emerald" target="blank"><p id="designed">Designed & Built by Emerald Sea</p></a>
 			</footer>
 		</>
 	);
