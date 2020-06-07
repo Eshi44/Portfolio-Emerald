@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Contact.css";
 
+
 class Contact extends Component {
 	render() {
 		return (
@@ -21,6 +22,7 @@ class Contact extends Component {
 								</button> </a>
 						</div>
 					</div>
+
 				</div>
 				<hr></hr>
 			</>
