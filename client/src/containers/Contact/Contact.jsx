@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Contact.css";
-import EmeraldS from "../../images/emerald-tag.png";
+
 
 class Contact extends Component {
 	render() {
@@ -22,12 +22,7 @@ class Contact extends Component {
 								</button> </a>
 						</div>
 					</div>
-					<img
-										
-										src={EmeraldS}
-										alt="emerald"
-										
-									/>
+
 				</div>
 				<hr></hr>
 			</>
