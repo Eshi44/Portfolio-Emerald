@@ -54,7 +54,6 @@ class Main extends Component {
 										id="emerald"
 										src={Emerald}
 										alt="emerald"
-										property="og:image"
 										height="80px"
 									/>
 								</span>
